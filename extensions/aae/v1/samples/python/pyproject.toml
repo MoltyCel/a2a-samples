@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "aae-a2a-ext"
+version = "1.0.0"
+description = "A2A extension sample: an AAE (Agent Authorization Envelope) verified before a skill runs"
+authors = ["Lars Kroehl <lars@moltrust.ch>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [
+    { include = "aae_a2a_ext", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+a2a-sdk = { version = "1.2.2", extras = ["http-server"] }
+cryptography = ">=46"
+httpx = ">=0.28"
+jcs = ">=0.2.1"
+uvicorn = ">=0.30"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

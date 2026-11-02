@@ -1,0 +1,14 @@
+AAE extension sample for A2A
+Copyright 2026 CryptoKRI GmbH, Zurich (MolTrust)
+
+Licensed under the Apache License, Version 2.0.
+
+The modules in src/aae_a2a_ext are taken from the reference implementation
+https://github.com/MoltyCel/aae-a2a-extension (commit
+53d788ea095804bed7c15e4a425fd2554f2576f2), Apache License 2.0. verifier.py and
+enforce.py there derive from https://github.com/MoltyCel/aae-conformance-vectors,
+same copyright and license.
+
+The keys derived in src/aae_a2a_ext/testkeys.py are public test keys that exist
+only to make the sample reproducible. They are not secrets and must not be used
+in production.
