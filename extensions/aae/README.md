@@ -36,7 +36,7 @@ the in-task authorization pattern of A2A section 7.6.
 
 ## Specification
 
-➡️ **[Full Specification (v1)](./v1/spec.md)**
+The full specification is in [v1/spec.md](./v1/spec.md).
 
 The specification is maintained in
 [MoltyCel/aae-a2a-extension](https://github.com/MoltyCel/aae-a2a-extension),
@@ -49,6 +49,5 @@ A buyer agent and a supplier agent run against each other over A2A JSON-RPC on
 localhost. The buyer holds an AAE with a 500 EUR order limit and places six
 orders; the sample prints what the supplier decided for each.
 
-➡️ **[Python Sample Usage Guide](./v1/samples/python/README.md)**
-
-➡️ **[How to run](./HOWTORUN.md)**
+The [Python sample guide](./v1/samples/python/README.md) describes the files, and
+[HOWTORUN.md](./HOWTORUN.md) has the setup steps and the expected output.
